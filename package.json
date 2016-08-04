@@ -1,0 +1,31 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "Web scraper using Node, Express, Express-Handlebars, Cheerio, and Request that scrapes websites and stores the results in a MongoDB",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "express-handlebars": "^3.0.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptokmak/WebScraper.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "ptokmak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptokmak/WebScraper/issues"
+  },
+  "homepage": "https://github.com/ptokmak/WebScraper#readme"
+}
