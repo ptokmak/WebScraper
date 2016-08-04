@@ -11,6 +11,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 app.use(express.static('public'));
 
+//mongojs 
 var mongojs = require('mongojs');
 // var databaseUrl = "scraper"; //for local
 var databaseUrl = "mongodb://heroku_m0x3bd23:4oe52tkq14f11u5tlobjk3gkj7@ds139645.mlab.com:39645/heroku_m0x3bd23";//for heroku
